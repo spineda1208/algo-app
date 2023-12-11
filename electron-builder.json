@@ -1,0 +1,9 @@
+{
+  "name": "algo-viz",
+  "productName": "Santi's DSA",
+  "appId": "com.psucmpsc.dsavisualizer",
+  "directories": {
+    "output": "build"
+  },
+  "files": ["dist/**/*", "index.js"]
+}

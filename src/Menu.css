@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.line-home, .line-ds, .line-algo {
+		@apply content-[''] rounded-full border-none w-full h-2 mb-6 
+	}
+	
+	.line-home {
+		@apply bg-gradient-to-r from-green-primary via-blue-secondary to-blue-primary
+	}
+
+	.line-ds {
+		@apply bg-gradient-to-r from-success via-green-primary to-green-shade
+	}
+
+	.line-algo {
+		@apply bg-gradient-to-r from-blue-primary via-blue-500 to-blue-secondary
+	}
+}
